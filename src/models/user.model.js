@@ -30,7 +30,7 @@ const userSchema = new Schema(
       type: String, // cloud image
       required: true,
     },
-    coverImage: {
+    image: {
       type: String, // cloud image
     },
     watchHistory: [
